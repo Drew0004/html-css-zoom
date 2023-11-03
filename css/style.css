@@ -38,6 +38,7 @@
 .header-container{
     position: relative;
     position: fixed;
+    z-index: 1;
     top: 0;
     right: 0;
     left: 0;
@@ -99,7 +100,43 @@
     footer 
 */
 
-footer{
+.footer-container{
     height: 100px;
     background-color: #222222;
+}
+
+.foot-left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.foot-button{
+    line-height: 30px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.icon{
+    font-size: 1.6em;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-text{
+    color: white;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow{
+    color: white;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.icon-text{
+    display: inline-block;
+    vertical-align: middle;
 }
