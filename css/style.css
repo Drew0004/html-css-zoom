@@ -24,6 +24,7 @@
 .background{
     height: calc(100vh - 100px);
     background-color: black;
+    overflow: auto;
 }
 
 .color-white{
@@ -34,9 +35,56 @@
     header 
 */
 
+.header-container{
+    position: relative;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header-commands{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.cmd-2{
+    margin-left: 20px;
+}
+
+.gray-background{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 /* 
     main 
 */
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    width: calc(200px - 5px);
+    height: 150px;
+    background-color: aquamarine;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
 
 /* 
     footer 
