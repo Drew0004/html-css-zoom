@@ -12,11 +12,37 @@
     general 
 */
 
-/* 
-    main 
-*/
+*{
+    font-family: 'Helvetica', sans-serif;
+}
 
 .container{
     margin: 0 auto;
     max-width: 1200px;
+}
+
+.background{
+    height: calc(100vh - 100px);
+    background-color: black;
+}
+
+.color-white{
+    color: white;
+}
+
+/* 
+    header 
+*/
+
+/* 
+    main 
+*/
+
+/* 
+    footer 
+*/
+
+footer{
+    height: 100px;
+    background-color: #222222;
 }
